@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Υποστήριξη ειδοποιήσεων -->
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        android:required="false" /> <!-- Υποστήριξη για χρήστες με Android 9 (Pie) ή μεταγενέστερες εκδόσεις -->
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Store"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.WishlistActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_foreground" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/cyan" />
+
+        <activity
+            android:name=".Activity.loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.registrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CartActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.locationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProductDetails"
+            android:exported="false" />
+        <activity android:name=".Activity.SettingsActivity" />
+        <activity android:name=".Activity.OneActivity" />
+        <activity
+            android:name=".Activity.IntroActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Store.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="${apiKey}" />
+    </application>
+
+</manifest>

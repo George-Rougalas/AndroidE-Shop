@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Store</string>
+    <string name="intro_title">Καλώς ήρθατε στην εφαρμογή!!</string>
+    <string name="intro_login">Έχετε ήδη λογαριασμό; <font color='#FFEB3B'>Σύνδεση</font></string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Άνοιγμα</string>
+    <string name="nav_close">Κλείσιμο</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_home">Αρχική</string>
+    <string name="menu_gallery">Προφίλ</string>
+    <string name="menu_slideshow">Οι παραγγελίες μου</string>
+    <string name="menu_carts">Τα Καλάθια μου</string>
+    <string name="menu_orders">Οι Παραγγελίες μου</string>
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="navigation_drawer_open">Άνοιγμα πλοήγησης</string>
+    <string name="navigation_drawer_close">Κλείσιμο πλοήγησης</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Κεφαλίδα πλοήγησης</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="intro">Ας ξεκινήσουμε</string>
+    <string name="my_cart">Το Καλάθι μου</string>
+    <string name="order_summary">Περίληψη Παραγγελίας</string>
+    <string name="subtotal">Υποσύνολο</string>
+    <string name="delivery">Παράδοση</string>
+    <string name="total_tax">Συνολικός Φόρος</string>
+    <string name="total">Σύνολο</string>
+    <string name="information">Πληροφορίες</string>
+    <string name="your_delivery_address">Η Διεύθυνση Παράδοσης σας</string>
+    <string name="ny_downtown_no_97">ΝΥ - Κέντρο αριθμός 97</string>
+    <string name="payment_mode">Τρόπος Πληρωμής</string>
+    <string name="cash">Μετρητά</string>
+    <string name="your_cart_is_empty">Το καλάθι σας είναι άδειο</string>
+    <string name="order_now">Παραγγείλτε τώρα</string>
+    <string name="client_username">Όνομα χρήστη πελάτη</string>
+    <string name="username">Όνομα Χρήστη:</string>
+    <string name="total_0_00">Σύνολο: $0.00</string>
+    <string name="you_location_is">Η τοποθεσία σας είναι:</string>
+    <string name="login">ΣΥΝΔΕΣΗ</string>
+    <string name="sign_in">Σύνδεση</string>
+    <string name="don_t_have_account">Δεν έχετε λογαριασμό;</string>
+    <string name="unipiplishopping">UnipiPLIShopping</string>
+    <string name="forgot_password">Ξεχάσατε τον κωδικό;</string>
+    <string name="create_a_new_account">Δημιουργία νέου λογαριασμού</string>
+    <string name="password">Κωδικός</string>
+    <string name="email">Email</string>
+    <string name="items">Είδη</string>
+    <string name="fruits">Φρούτα</string>
+    <string name="wishlist">Λίστα Επιθυμιών</string>
+    <string name="cart">Καλάθι</string>
+    <string name="profile">Προφίλ</string>
+    <string name="drinks">Ποτά</string>
+    <string name="hello_user">Γειά σου, Χρήστη!</string>
+    <string name="let_s_find_your_favourite_products">Ας βρούμε τα αγαπημένα σας προϊόντα</string>
+    <string name="category">Κατηγορία</string>
+    <string name="japanese_cherry_blossom">Ιαπωνική Ανθισμένη Κερασιά</string>
+    <string name="_15_00">$ 15.00</string>
+    <string name="_250_ml">250 ml</string>
+    <string name="size">Μέγεθος</string>
+    <string name="price">Τιμή</string>
+    <string name="add_to_cart">Προσθήκη στο Καλάθι</string>
+    <string name="product_description">Περιγραφή Προιόντος</string>
+    <string name="body">Σώμα</string>
+    <string name="create_account">ΔΗΜΙΟΥΡΓΙΑ ΛΟΓΑΡΙΑΣΜΟΥ</string>
+    <string name="username2">Όνομα Χρήστη</string>
+    <string name="background">Φόντο</string>
+    <string name="font_size">Μέγεθος Γραμματοσειράς:</string>
+    <string name="save_prefrences">Αποθήκευση Προτιμήσεων</string>
+    <string name="small">Μικρό</string>
+    <string name="medium">Μεσαίο</string>
+    <string name="big">Μεγάλο</string>
+    <string name="search_for_stores">Αναζήτηση Καταστημάτων</string>
+    <string name="no_items_added_to_wishlist">Δεν έχουν προστεθεί αντικείμενα στη Λίστα Επιθυμιών</string>
+    <string name="product_name">Όνομα Προϊόντος</string>
+    <string name="product_price">Τιμή Προϊόντος</string>
+    <string name="most_popular">Πιο Δημοφιλή</string>
+    <string name="hello_emma">Γειά σου, Έμμα!</string>
+    <string name="let_s_find_your_favourate_body_care_product">Ας βρούμε το αγαπημένο σας προϊόν περιποίησης σώματος</string>
+
+</resources>
